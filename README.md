@@ -9,6 +9,9 @@ At the end all the directory is packed up in a .epub file that has all the image
 
 To use the script you need the python interpreter, at least version 3.5, and the original .epub file.
 
+The simplest way to use this is to clone the repository in a local directory, copy the epub file in the 
+same directory and run the script. 
+
 If you don't pass any option the standard file name is used (almanaccodellospazio.epub), if you
 want to use a different name pass it on the command line, e.g.
 
