@@ -303,7 +303,7 @@ def main():
     tot = len(img_to_download)
     cur = 0
     img_dir = os.path.join(work_dir, 'OEBPS', 'Images')
-    for u, f in img_to_download:
+    for u, f in sorted(img_to_download):
         cur += 1
         cd = Download(u, os.path.join(img_dir, f), header='%u/%u ' % (cur, tot, ))
         cd.download()
